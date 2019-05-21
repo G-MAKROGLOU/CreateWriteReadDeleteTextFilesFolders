@@ -31,9 +31,8 @@ public class MainClass {
             } catch (IOException ex) {
                 ex.printStackTrace( );
             }
-        } else if (menuChoice.matches("3"))
-            System.out.println("Add Text To File - AT2T");
-        else if (menuChoice.matches("4")) {
+        } 
+        else if (menuChoice.matches("3")) {
             System.out.println("Delete File or Folder - DF|F");
             Delete del = new Delete();
             System.out.println("Do you want to delete \n(1) a file \n(2) a folder? ");
