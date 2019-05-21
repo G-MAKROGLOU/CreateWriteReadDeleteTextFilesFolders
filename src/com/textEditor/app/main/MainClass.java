@@ -3,7 +3,6 @@ package com.textEditor.app.main;
 import java.io.*;
 import java.util.Scanner;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import com.textEditor.app.classes.*;
 
 public class MainClass {
